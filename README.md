@@ -24,3 +24,15 @@ The names and phone numbers should be stored in memory
 3. Third page should allow a user to search the address book by phone number (exact
 number, not substrings) and by full name or part of a name. It should display all
 matching names and related phone numbers for the search criteria.
+
+## Installation
+```
+yarn install
+```
+
+## Start - Server
+```yarn dev:server```
+
+
+## Start - Client
+```yarn dev:client```
