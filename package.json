@@ -1,0 +1,11 @@
+{
+    "name": "kindred",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": ["client", "server"],
+    "scripts": {
+        "dev:server": "cd server && node index.js",
+        "dev:client": "cd client && yarn start",
+        "install": "cd server && yarn install && cd ../client && yarn install"
+    }
+}
